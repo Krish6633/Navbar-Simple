@@ -1,0 +1,259 @@
+/* Normal desktop :992px. LG Device */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .mainmenu ul {
+        padding-left: 30px;
+    }
+    .bg-12 .mainmenu ul li a {
+        padding: 5px 7px;
+        font-size: 14px;
+    }
+    .logo {
+        margin-top: 6px;
+    }
+    .slider-wrapper h3 {
+        font-size: 2rem;
+    }
+    .slider-wrapper p {
+        font-size: 14px;
+    }
+    .slider-wrapper h1 {
+        font-size: 45px;
+    }
+}
+
+
+/* small mobile layout :320px. */
+
+@media only screen and (max-width: 767px) {
+    .slicknav_menu {
+        display: block;
+    }
+    .mainmenu {
+        display: none;
+    }
+    .pack {
+        display: none;
+    }
+    .menu-pack {
+        top: 0px;
+    }
+    .menu5-bar,
+    .border-bb {
+        border-bottom: none;
+    }
+    .logo {
+        margin-top: 0px;
+    }
+    div.slicknav_menu {
+        margin-top: -60px;
+        background: transparent;
+    }
+    div.slicknav_menu {
+        background: transparent;
+        padding: 5px 0px 0px 0px;
+    }
+    .slicknav_btn {
+        margin: 5px 20px 22px;
+    }
+    .slicknav_nav li a i {
+        display: none;
+    }
+    .slicknav_nav {
+        background: #007ced;
+        padding: 15px;
+        text-align: center;
+    }
+    .form {
+        display: none;
+    }
+    .tbs {
+        display: none;
+    }
+    #topbar,
+    #topper {
+        display: none;
+    }
+    .bg-6,
+    .bg-22-over,
+    .bg-22-transp {
+        top: 0px;
+    }
+    .bg-7,
+    .bg-13,
+    .bg-13-transp {
+        top: 0px;
+    }
+    .contentright {
+        float: none;
+    }
+    .contentleft {
+        float: none;
+    }
+    .bg-8 div.slicknav_menu,
+    .bg-8-dark div.slicknav_menu {
+        margin-top: 10px;
+    }
+    .logo-middle {
+        position: relative;
+    }
+    .logo-middle {
+        text-align: left !important;
+    }
+    .logo {
+        text-align: left;
+    }
+    .button_green_image {
+        text-align: center;
+        display: inline-block;
+    }
+    #message_wrapper {
+        text-align: center;
+    }
+    .slider-wrapper h1 {
+        font-size: 30px;
+    }
+    .slider-wrapper p {
+        width: 100%;
+    }
+    .slider-wrapper h4 {
+        font-size: 20px;
+    }
+    .banner-subtitle {
+        font-size: 24px;
+    }
+    .banner-title {
+        font-size: 30px;
+    }
+    .visible-xs-block {
+        display: block !important;
+    }
+    .bg-21-nav a.toggle-menu {
+        color: #000;
+    }
+    .slicknav_nav li {
+        text-align: left;
+    }
+    .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_nav {
+        background: #212121!important;
+    }
+    .slicknav_nav li a {
+        color: #ff0000;
+    }
+    .logo {
+        width: 60% !important;
+    }
+    .slicknav_nav .slicknav_row:hover {
+        border-radius: 0px;
+        color: #fff;
+        background: #007ced;
+    }
+    .slicknav_nav a:hover {
+        border-radius: 0px;
+        color: #fff;
+        background: #007ced;
+    }
+}
+
+
+/* Large Mobile layout:550px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .slicknav_menu {
+        display: block;
+    }
+    .mainmenu {
+        display: none;
+    }
+    .pack {
+        display: none;
+    }
+    .tmp {
+        display: none;
+    }
+    .logo {
+        margin-top: 0px;
+        text-align: left;
+    }
+    div.slicknav_menu {
+        background: transparent;
+        margin-right: 65px;
+        padding: 5px 0px 0px 0px;
+    }
+    .slicknav_btn {
+        margin: 5px 5px 22px;
+    }
+    .slicknav_nav li a i {
+        display: none;
+    }
+    .slicknav_nav {
+        margin-left: 60px;
+        background: #007ced;
+        padding: 15px;
+        text-align: center;
+    }
+    .tbs {
+        display: none;
+    }
+    .menu5-bar,
+    .border-bb {
+        border-bottom: none;
+    }
+    #topbar,
+    #topper {
+        display: none;
+    }
+    .bg-6,
+    .bg-22-over,
+    .bg-22-transp {
+        top: 0px;
+    }
+    .bg-7,
+    .bg-13,
+    .bg-13-transp {
+        top: 0px;
+    }
+    .form {
+        display: none;
+    }
+    .bg-8 div.slicknav_menu,
+    .bg-8-dark div.slicknav_menu {
+        margin-top: 10px;
+    }
+    .logo-middle {
+        position: relative;
+    }
+    .logo-middle {
+        text-align: left !important;
+    }
+    .menu5-bar {
+        border-bottom: none;
+    }
+    .bg-17 {
+        background: transparent;
+    }
+    .bg-21-nav a.toggle-menu {
+        color: #000;
+    }
+    .slider-wrapper h1 {
+        font-size: 30px;
+    }
+    .slider-wrapper p {
+        width: 100%;
+    }
+    .slider-wrapper h4 {
+        font-size: 20px;
+    }
+    .banner-subtitle {
+        font-size: 24px;
+    }
+    .banner-title {
+        font-size: 30px;
+    }
+    .visible-xs-block {
+        display: block !important;
+    }
+}
